@@ -31,7 +31,7 @@
   </div>
 
   <Toaster />
-  <LayoutFooter />
+  <!-- <LayoutFooter /> -->
 </template>
 
 <script setup lang="ts">

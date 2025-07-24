@@ -9,10 +9,10 @@ const customDefu = createDefu((obj, key, value) => {
 
 const defaultConfig: DefaultConfig = {
   site: {
-    name: 'shadcn-docs',
-    description: 'Beautifully designed Nuxt Content template built with shadcn-vue. Customizable. Compatible. Open Source.',
+    name: 'Ruka14TC',
+    description: 'FF14繁中小攻略',
     ogImage: '/hero.png',
-    ogImageComponent: 'ShadcnDocs',
+    ogImageComponent: 'Ruka14TC',
     ogImageColor: 'light',
     umami: {
       enable: false,
@@ -28,14 +28,14 @@ const defaultConfig: DefaultConfig = {
   banner: {
     enable: false,
     showClose: true,
-    content: 'Welcome to **shadcn-docs-nuxt**',
+    content: 'Welcome to **Ruka14TC**',
     to: '',
     target: '_blank',
     border: true,
   },
   header: {
     showLoadingIndicator: true,
-    title: 'shadcn-docs',
+    title: 'Ruka14TC',
     showTitle: true,
     logo: {
       light: '/logo.svg',
@@ -151,7 +151,7 @@ const defaultConfig: DefaultConfig = {
     },
   },
   search: {
-    enable: true,
+    enable: false,
     inAside: false,
     style: 'input',
     placeholder: 'Search...',

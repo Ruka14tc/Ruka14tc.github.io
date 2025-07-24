@@ -1,17 +1,17 @@
 {
-  "name": "shadcn-docs-nuxt",
+  "name": "ruka14tc",
   "type": "module",
   "version": "1.1.2",
   "packageManager": "pnpm@10.13.1",
-  "description": "Effortless and beautiful docs template built with Nuxt Content & shadcn-vue.",
-  "author": "Tony Zhang <zhangtianli2006@gmail.com>",
+  "description": "FF14繁中小攻略",
+  "author": "Ruka <rukaxiv0202@gmail.com>",
   "license": "MIT",
   "homepage": "https://shadcn-docs-nuxt.vercel.app/",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ZTL-UwU/shadcn-docs-nuxt.git"
+    "url": "git+https://github.com/Ruka14TC/Ruka14TC.github.io.git"
   },
-  "bugs": "https://github.com/ZTL-UwU/shadcn-docs-nuxt/issues",
+  "bugs": "https://github.com/Ruka14TC/Ruka14TC.github.io/issues",
   "keywords": [
     "markdown",
     "docs",

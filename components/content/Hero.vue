@@ -23,21 +23,6 @@
     <span class="text-muted-foreground max-w-[750px] text-center text-lg sm:text-xl">
       <ContentSlot :use="$slots.description" unwrap="p" />
     </span>
-
-    <section class="flex w-full flex-wrap items-center justify-center gap-4 py-4 md:pb-10">
-      <NuxtLinkLocale
-        v-for="(action, i) in actions"
-        :key="i"
-        :to="action.to"
-        :target="action.target"
-      >
-        <UiButton :variant="action.variant">
-          <SmartIcon v-if="action.leftIcon" :name="action.leftIcon" class="mr-1" />
-          {{ action.name }}
-          <SmartIcon v-if="action.rightIcon" :name="action.rightIcon" class="ml-1" />
-        </UiButton>
-      </NuxtLinkLocale>
-    </section>
   </section>
 </template>
 
@@ -49,14 +34,6 @@ defineProps<{
     icon?: string;
     title: string;
   };
-  actions: {
-    name: string;
-    leftIcon?: string;
-    rightIcon?: string;
-    variant?: 'default' | 'link' | 'destructive' | 'outline' | 'secondary' | 'ghost';
-    to: string;
-    target?: Target;
-  }[];
 }>();
 defineSlots();
 </script>

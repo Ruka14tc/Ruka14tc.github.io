@@ -6,30 +6,15 @@ navigation: false
 ::hero
 ---
 announcement:
-  title: 'v1.1 release'
-  icon: '🎉'
-  to: /blog/v1-1
-actions:
-  - name: Get Started
-    to: /getting-started/introduction
-  - name: GitHub
-    variant: outline
-    to: https://github.com/ZTL-UwU/shadcn-docs-nuxt
-    leftIcon: 'lucide:github'
-  - name: Sponsor
-    variant: outline
-    target: _blank
-    to: https://ko-fi.com/ztl_uwu
-    leftIcon: 'lucide:heart'
+  title: 'FF14繁中官網'
+  icon: 'https://www.ffxiv.com.tw/web//images/favicon.ico'
+  to: https://www.ffxiv.com.tw/
+
 ---
 
 #title
-Effortless and Beautiful :br Docs Template.
+Ruka FF14 筆記本
 
 #description
-Beautifully designed Nuxt Content template built with shadcn-vue. :br Customizable. Compatible. Open Source.
-::
-
-::div{class="border rounded-lg shadow-md"}
-  :iframe{src="/getting-started/introduction" height="700" width="100%" class="rounded-lg" scrolling="no" frameborder="0"}
+放一些小設定、攻略、便利工具、快速連結的小站
 ::

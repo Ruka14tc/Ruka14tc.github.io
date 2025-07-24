@@ -1,10 +1,10 @@
 export default defineAppConfig({
   shadcnDocs: {
     site: {
-      name: 'shadcn-docs',
-      description: 'Beautifully designed Nuxt Content template built with shadcn-vue. Customizable. Compatible. Open Source.',
+      name: 'Ruka14TC',
+      description: 'FF14繁中小攻略',
       ogImage: '/hero.png',
-      ogImageComponent: 'ShadcnDocs',
+      ogImageComponent: 'Ruka14TC',
       ogImageColor: 'light',
       umami: {
         enable: true,
@@ -13,20 +13,20 @@ export default defineAppConfig({
       },
     },
     theme: {
-      customizable: true,
+      customizable: false,
       color: 'zinc',
       radius: 0.5,
     },
     banner: {
       enable: false,
       showClose: true,
-      content: 'Welcome to **shadcn-docs-nuxt**',
-      to: 'https://github.com/ZTL-UwU/shadcn-docs-nuxt',
+      content: 'Welcome to **Ruka14TC**',
+      to: 'https://ruka14tc.github.io/',
       target: '_blank',
       border: true,
     },
     header: {
-      title: 'shadcn-docs',
+      title: 'Ruka14TC',
       showTitle: true,
       logo: {
         light: '/logo.svg',
@@ -35,7 +35,7 @@ export default defineAppConfig({
       border: false,
       darkModeToggle: true,
       languageSwitcher: {
-        enable: true,
+        enable: false,
         triggerType: 'icon',
         dropdownType: 'select',
       },
@@ -58,44 +58,44 @@ export default defineAppConfig({
           target: '_self',
           icon: 'lucide:code',
         }],
-      }, {
-        title: 'Credits',
-        links: [{
-          title: 'shadcn-ui',
-          to: 'https://ui.shadcn.com/',
-          description: 'For the beautiful component design & docs design',
-          target: '_blank',
-        }, {
-          title: 'shadcn-vue',
-          to: 'https://www.shadcn-vue.com/',
-          description: 'For the vue port of shadcn-ui & some docs component source',
-          target: '_blank',
-        }, {
-          title: 'Docus',
-          to: 'https://docus.dev/',
-          description: 'For inspiration & some docs component source',
-          target: '_blank',
-        }, {
-          title: 'Nuxt Content',
-          to: 'https://content.nuxt.com/',
-          description: 'Content made easy for Vue Developers',
-          target: '_blank',
-        }],
+      // }, {
+      //   title: 'Credits',
+      //   links: [{
+      //     title: 'shadcn-ui',
+      //     to: 'https://ui.shadcn.com/',
+      //     description: 'For the beautiful component design & docs design',
+      //     target: '_blank',
+      //   }, {
+      //     title: 'shadcn-vue',
+      //     to: 'https://www.shadcn-vue.com/',
+      //     description: 'For the vue port of shadcn-ui & some docs component source',
+      //     target: '_blank',
+      //   }, {
+      //     title: 'Docus',
+      //     to: 'https://docus.dev/',
+      //     description: 'For inspiration & some docs component source',
+      //     target: '_blank',
+      //   }, {
+      //     title: 'Nuxt Content',
+      //     to: 'https://content.nuxt.com/',
+      //     description: 'Content made easy for Vue Developers',
+      //     target: '_blank',
+      //   }],
       }, {
         title: 'Blog',
-        to: '/blog',
+        to: '/#',
         target: '_self',
         showLinkIcon: false,
       }],
       links: [
         {
-          icon: 'lucide:coffee',
-          to: 'https://ko-fi.com/ztl_uwu',
+          icon: 'https://www.ffxiv.com.tw/web//images/favicon.ico',
+          to: 'https://www.ffxiv.com.tw/web/',
           target: '_blank',
         },
         {
-          icon: 'lucide:github',
-          to: 'https://github.com/ZTL-UwU/shadcn-docs-nuxt',
+          icon: 'https://av.huijiwiki.com/site_avatar_ff14_l.png',
+          to: 'https://ff14.huijiwiki.com/',
           target: '_blank',
         },
       ],
@@ -114,8 +114,8 @@ export default defineAppConfig({
       codeCopyToast: false,
       codeCopyIcon: 'lucide:clipboard',
       editLink: {
-        enable: true,
-        pattern: 'https://github.com/ZTL-UwU/shadcn-docs-nuxt/edit/main/www/content/:path',
+        enable: false,
+        pattern: 'https://github.com/Ruka14TC/Ruka14TC.github.io',
         text: 'Edit this page',
         icon: 'lucide:square-pen',
         placement: ['docsFooter'],
@@ -199,7 +199,7 @@ export default defineAppConfig({
       ],
     },
     toc: {
-      enable: true,
+      enable: false,
       enableInMobile: true,
       enableInHomepage: false,
       title: 'On this page',
@@ -253,7 +253,7 @@ export default defineAppConfig({
       },
     },
     search: {
-      enable: true,
+      enable: false,
       inAside: false,
       style: 'input',
     },
