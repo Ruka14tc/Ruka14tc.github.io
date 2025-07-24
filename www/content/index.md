@@ -10,6 +10,10 @@ announcement:
   icon: 'https://www.ffxiv.com.tw/web//images/favicon.ico'
   to: https://www.ffxiv.com.tw/
 
+actions:
+  - name: Get Started
+    variant: ghost
+    to: /#
 ---
 
 #title
