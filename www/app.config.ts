@@ -58,29 +58,24 @@ export default defineAppConfig({
           target: '_self',
           icon: 'lucide:code',
         }],
-      // }, {
-      //   title: 'Credits',
-      //   links: [{
-      //     title: 'shadcn-ui',
-      //     to: 'https://ui.shadcn.com/',
-      //     description: 'For the beautiful component design & docs design',
-      //     target: '_blank',
-      //   }, {
-      //     title: 'shadcn-vue',
-      //     to: 'https://www.shadcn-vue.com/',
-      //     description: 'For the vue port of shadcn-ui & some docs component source',
-      //     target: '_blank',
-      //   }, {
-      //     title: 'Docus',
-      //     to: 'https://docus.dev/',
-      //     description: 'For inspiration & some docs component source',
-      //     target: '_blank',
-      //   }, {
-      //     title: 'Nuxt Content',
-      //     to: 'https://content.nuxt.com/',
-      //     description: 'Content made easy for Vue Developers',
-      //     target: '_blank',
-      //   }],
+      }, {
+        title: '外部工具',
+        links: [{
+          title: '灰機',
+          to: 'https://ff14.huijiwiki.com/wiki/%E9%A6%96%E9%A1%B5',
+          description: 'FFXIV簡體中文维基',
+          target: '_blank',
+        },{
+          title: '魚糕',
+          to: 'https://fish.ffmomola.com/ng/',
+          description: '釣魚攻略',
+          target: '_blank',
+        },{
+          title: 'mogship',
+          to: 'https://www.mogship.com/submarines/exp-calculator',
+          description: '潛水艇班表',
+          target: '_blank',
+        }],
       }, {
         title: 'Blog',
         to: '/#',
@@ -92,12 +87,7 @@ export default defineAppConfig({
           icon: 'https://www.ffxiv.com.tw/web//images/favicon.ico',
           to: 'https://www.ffxiv.com.tw/web/',
           target: '_blank',
-        },
-        {
-          icon: 'https://av.huijiwiki.com/site_avatar_ff14_l.png',
-          to: 'https://ff14.huijiwiki.com/',
-          target: '_blank',
-        },
+        }
       ],
     },
     aside: {
