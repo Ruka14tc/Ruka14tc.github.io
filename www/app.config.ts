@@ -4,7 +4,7 @@ export default defineAppConfig({
       name: 'Ruka14TC',
       description: 'FF14繁中小攻略',
       ogImage: '/hero.png',
-      ogImageComponent: 'Ruka14TC',
+      ogImageComponent: 'ShadcnDocs',
       ogImageColor: 'light',
       umami: {
         enable: true,
@@ -40,21 +40,21 @@ export default defineAppConfig({
         dropdownType: 'select',
       },
       nav: [{
-        title: 'Docs',
+        title: '設定調整',
         links: [{
-          title: 'Getting Started',
-          to: '/getting-started',
-          description: 'Start building your document with shadcn-docs-nuxt',
+          title: '系統設置',
+          to: '/setting/system',
+          description: '系統設置',
           icon: 'lucide:rocket',
         }, {
-          title: 'Components',
-          to: '/components/prose',
-          description: 'Explore available UI components and usage examples.',
+          title: '介面設定',
+          to: '/setting/ui',
+          description: '介面設定',
           icon: 'lucide:box',
         }, {
-          title: 'API',
-          to: '/api/configuration/shadcn-docs',
-          description: 'Discover the configurations and exposed APIs.',
+          title: '手把設定',
+          to: '/setting/controller',
+          description: '手把設定',
           target: '_self',
           icon: 'lucide:code',
         }],
@@ -65,12 +65,12 @@ export default defineAppConfig({
           to: 'https://ff14.huijiwiki.com/wiki/%E9%A6%96%E9%A1%B5',
           description: 'FFXIV簡體中文维基',
           target: '_blank',
-        },{
+        }, {
           title: '魚糕',
           to: 'https://fish.ffmomola.com/ng/',
           description: '釣魚攻略',
           target: '_blank',
-        },{
+        }, {
           title: 'mogship',
           to: 'https://www.mogship.com/submarines/exp-calculator',
           description: '潛水艇班表',
@@ -87,7 +87,7 @@ export default defineAppConfig({
           icon: 'https://www.ffxiv.com.tw/web//images/favicon.ico',
           to: 'https://www.ffxiv.com.tw/web/',
           target: '_blank',
-        }
+        },
       ],
     },
     aside: {
@@ -105,7 +105,7 @@ export default defineAppConfig({
       codeCopyIcon: 'lucide:clipboard',
       editLink: {
         enable: false,
-        pattern: 'https://github.com/Ruka14TC/Ruka14TC.github.io',
+        pattern: 'https://github.com/ZTL-UwU/shadcn-docs-nuxt/edit/main/www/content/:path',
         text: 'Edit this page',
         icon: 'lucide:square-pen',
         placement: ['docsFooter'],
@@ -157,7 +157,7 @@ export default defineAppConfig({
       },
     },
     footer: {
-      border: true,
+      border: false,
       credits: 'FOOTER_CREDIT',
       links: [
         {
@@ -190,7 +190,7 @@ export default defineAppConfig({
     },
     toc: {
       enable: false,
-      enableInMobile: true,
+      enableInMobile: false,
       enableInHomepage: false,
       title: 'On this page',
       links: [
@@ -232,7 +232,7 @@ export default defineAppConfig({
         },
       ],
       carbonAds: {
-        enable: true,
+        enable: false,
         disableInDev: true,
         disableInMobile: false,
         fallback: false,
