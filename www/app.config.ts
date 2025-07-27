@@ -47,9 +47,9 @@ export default defineAppConfig({
           description: '系統設置',
           icon: 'lucide:rocket',
         }, {
-          title: '介面設定',
-          to: '/setting/ui',
-          description: '介面設定',
+          title: '角色設置',
+          to: '/setting/character',
+          description: '角色設置',
           icon: 'lucide:box',
         }, {
           title: '手把設定',
