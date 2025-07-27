@@ -21,6 +21,11 @@ Ruka FF14 筆記本
 放一些小設定、攻略、便利工具、快速連結的小站
 ::
 
+::card
+---
+img: IMG_3316.jpg
+---
+
 ::div{class="border rounded-lg shadow-md"}
   :iframe{src="/setting/system" height="700" width="100%" class="rounded-lg" scrolling="no" frameborder="0"}
 ::
