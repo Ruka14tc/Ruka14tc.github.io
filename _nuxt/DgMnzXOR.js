@@ -1,0 +1,1 @@
+import{_ as e}from"./BndLYK3-.js";import{f as a,k as r,w as n,o as s,r as c}from"./DsRb3ALG.js";const f=a({__name:"Callout",props:{icon:{},to:{},target:{}},setup(p){return(t,i)=>{const o=e;return s(),r(o,{icon:t.icon,to:t.to,target:t.target},{default:n(()=>[c(t.$slots,"default")]),_:3},8,["icon","to","target"])}}});export{f as default};
