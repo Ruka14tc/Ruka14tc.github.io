@@ -26,6 +26,6 @@ Ruka FF14 筆記本
 img: IMG_3316.jpg
 ---
 
-::div{class="border rounded-lg shadow-md"}
+::div{class="border rounded-lg shadow-md hidden"}
   :iframe{src="/setting/system" height="700" width="100%" class="rounded-lg" scrolling="no" frameborder="0"}
 ::
